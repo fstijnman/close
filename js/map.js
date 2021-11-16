@@ -1,3 +1,6 @@
+$.getJSON('http://close-ams.herokuapp.com/venues', function (data) {
+    console.log(data);
+});
 
 
 function initMap() {
@@ -14,4 +17,4 @@ function initMap() {
         center: myMapCenter,
     });
 
-}
+};
