@@ -1,9 +1,9 @@
 function openSide() {
-    document.getElementById("left").style.width = "40%";
-    document.getElementById("right").style.width ="60%";
+    document.getElementById('leftpanel').style.width = "40%";
+    document.getElementById('rightpanel').style.width = "60%";
 }
 
 function closeSide() {
-    document.getElementsByClassName("left").style.width = "0%";
-    document.getElementsByClassName("right").style.width = "100%";
+    document.getElementById('leftpanel').style.width = "0%";
+    document.getElementById('rightpanel').style.width = "100%";
 }

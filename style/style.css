@@ -42,10 +42,10 @@ body {
   float:left;
   height: 100%;
   width: 40%;
+  transition: width 400ms ease-in-out;
 }
 
 .right {
-  background-color: cornsilk;
   display: inline-block;
   height: 100%;
   width: 60%;
