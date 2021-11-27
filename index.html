@@ -16,14 +16,19 @@
     </div>
 
     <div class="content">
-        <div class="left" id="leftpanel">Left</div>
+
+        <div class="left" id="leftpanel"></div>
         <div class="right" id="rightpanel">
             <button type="button" class="openbtn" onclick="closeSide()">
-                < </button>
-
+                Collapse </button>
+            <div id="map"></div>
         </div>
     </div>
 
+    <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpujcs3l0M8KZdSTMswpM3NGZrneVpvVM&callback=initMap"
+        async defer>
+        </script>
     <script src="js/main.js"></script>
 </body>
 

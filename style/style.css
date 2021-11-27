@@ -32,8 +32,12 @@ body {
 }
 
 .content {
-  background-color: brown;
   height: 100%;
+}
+
+.right button {
+  background: none;
+  position: relative;
 }
 
 .left {
@@ -54,4 +58,8 @@ body {
 .right button {
   padding: 10px;
   margin: 10px;
+}
+
+#map {
+  height: 100%;
 }
