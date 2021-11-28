@@ -6,10 +6,11 @@ App to find alternative activities (small galeries, expositions, live events) in
 - Customize window DONE
 - Load venue DONE
 - Venue Marker DONE
+- Left Side Panel DONE
 
-- Left Side Panel
-
-
+- Load more dummy data 
+- Load (dummy) venues left side panel
+- Connect markers to left side panel
 - Opening hours venue
 
 Backlog:

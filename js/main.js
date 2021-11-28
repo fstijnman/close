@@ -1,3 +1,4 @@
+// collapse function
 const sidebar = document.querySelector('.left');
 const mainContent = document.querySelector('.right');
 const colButton = document.querySelector('.collapse-button')
