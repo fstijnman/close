@@ -3,61 +3,43 @@ html {
   padding: 0;
   height: 100%;
 }
-
 body {
   font-family: Arial;
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
 .header {
   padding: 25px;
   text-align: center;
   background: #1abc9c;
   color: white;
 }
-
 .logo {
   font-size: 20px;
   display: block;
   float: left;
   background-color: purple;
 }
-
 .date-picker {
   font-size: 20px;
   background-color: blue;
   display:inline-block;
 }
-
 .content {
   height: 100%;
 }
-
-.right button {
-  background: none;
-  position: relative;
-}
-
 .left {
   background-color: coral;
-  display:inline;
   float:left;
   height: 100%;
   width: 40%;
-  transition: width 400ms ease-in-out;
+  transition: all 0.5s ease;
 }
-
 .right {
   display: inline-block;
   height: 100%;
   width: 60%;
-}
-
-.right button {
-  padding: 10px;
-  margin: 10px;
 }
 
 #map {
