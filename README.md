@@ -8,14 +8,26 @@ App to find alternative activities (small galeries, expositions, live events) in
 - Venue Marker DONE
 - Left Side Panel DONE
 
-- Load more dummy data 
-- Load (dummy) venues left side panel
+Map page
+- Load/find more dummy data
+- Load (dummy) venues 
+- Create venue cards left side panel
 - Connect markers to left side panel
-- Opening hours venue
+
+Venue page
+- Link new page on sidepanel to venue event
+- Venue/Event page
+
+Opening hours venues
+- Load (dummy) opening hours data
+- Make datepicker 
+- Only show venues that are open
 
 Backlog:
 - Customize markers
-- Markers appearance
+- Show venues based on location
+- Show sidepanel venue list in location order
+- Recommender system
 
 # Gameplan v2
 T.B.D
