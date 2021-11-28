@@ -33,15 +33,47 @@ body {
   background-color: coral;
   float:left;
   height: 100%;
-  width: 40%;
-  transition: all 0.5s ease;
+  width: 30%;
+  transition: 1s ease;
+}
+.left-small {
+  width: 0%;
 }
 .right {
   display: inline-block;
   height: 100%;
-  width: 60%;
+  width: 70%;
+  transition: 1s ease;
 }
-
+.right-large {
+  width: 100%;
+}
+.collapse-button {
+  position:absolute;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  font-size:16px;
+  background-color:#ef4581;
+  color:#f1f1f2;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top: 90px;
+  left: calc(30% - 18px);
+  z-index:3;
+  cursor:pointer;
+  transition: 1s ease;
+}
+.collapse-button-collapsed {
+  left: 10px;
+}
+.fa-chevron-left {
+  margin-right:3px;
+}
+.fa-chevron-right {
+  margin-left:3px;
+}
 #map {
   height: 100%;
 }
