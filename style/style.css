@@ -52,15 +52,15 @@ body {
   position:absolute;
   width:36px;
   height:36px;
-  border-radius:50%;
+  border-radius:25%;
   font-size:16px;
   background-color:#ef4581;
   color:#f1f1f2;
   display:flex;
   justify-content:center;
   align-items:center;
-  top: 90px;
-  left: calc(30% - 18px);
+  top: 80px;
+  left: 30.5%;
   z-index:3;
   cursor:pointer;
   transition: 1s ease;
@@ -69,10 +69,18 @@ body {
   left: 10px;
 }
 .fa-chevron-left {
+  display: inline;
   margin-right:3px;
 }
+.fa-chevron-left-hidden {
+  display: none;
+}
 .fa-chevron-right {
-  margin-left:3px;
+  margin-left: 3px;
+  display: inline;
+}
+.fa-chevron-right-hidden {
+  display: none;
 }
 #map {
   height: 100%;
