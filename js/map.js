@@ -14,11 +14,44 @@ let venues = [{
     "description": "Outsider art, in which artists show their imaginative inner world.",
     "addressLine1": "Amstel 51",
     "latitude": "52.3681145",
-    "longitude": "4.9025139,15",
+    "longitude": "4.9025139",
     "city": "Amsterdam",
     "postalCode": "1018EJ",
     "email": "info@museumvandegeest.nl",
     "phone": "+31235410681"
+},
+{
+    "name": "Luther Museum",
+    "description": "​The Lutheran Museum of Amsterdam shows how a religious community made a new start, with its own manner of believing, and built on care for one another.",
+    "addressLine1": "Nieuwe Keizersgracht 570",
+    "latitude": "52.3655353",
+    "longitude": "4.9089125",
+    "city": "Amsterdam",
+    "postalCode": "1018VG",
+    "email": "info@luthermuseum.nl",
+    "phone": "+31202142112"
+},
+{
+    "name": "Museum Kromhout",
+    "description": "Museum 't Kromhout provides you with a good and complete overview of the technical development of the engines built here (mainly Kromhout engines) in the Kromhout Engine Factory, in Amsterdam, from 1895.",
+    "addressLine1": "Hoogte Kadijk 147",
+    "latitude": "52.3679264",
+    "longitude": "4.9174555",
+    "city": "Amsterdam",
+    "postalCode": "1018BJ",
+    "email": "info@kromhoutmuseum.nl",
+    "phone": "+31620329927"
+},
+{
+    "name": "Cacaomuseum",
+    "description": "Our Chocolate experiences take your chocolate knowledge to the next level. Experience how chocolate is made from bean-to-bar in one of our famous workshops.",
+    "addressLine1": "Czaar Peterstraat 175",
+    "latitude": "52.3713904",
+    "longitude": "4.9290733",
+    "city": "Amsterdam",
+    "postalCode": "1018PK",
+    "email": "info@cacaomuseum.nl",
+    "phone": "+31612797707"
 }]
 
 function initMap() {
