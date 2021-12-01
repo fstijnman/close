@@ -7,7 +7,7 @@ body {
   font-family: Arial;
   margin: 0;
   padding: 0;
-  height: 91%;
+  height: calc(100% - 73px);
 }
 .header {
   padding: 25px;
@@ -69,15 +69,15 @@ body {
   left: 10px;
 }
 .fa-chevron-left {
-  display: inline;
+  display: block;
   margin-right:3px;
 }
-.fa-chevron-left-hidden {
+.hidden {
   display: none;
 }
 .fa-chevron-right {
   margin-left: 3px;
-  display: inline;
+  display: inline-block;
 }
 .fa-chevron-right-hidden {
   display: none;

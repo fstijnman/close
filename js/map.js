@@ -7,6 +7,7 @@ let venues = [{
     "city": "Amsterdam",
     "postalCode": "1018DB",
     "email": "info@jetbrainstechlab.com",
+    "website": "https://jetbrainstechlab.com/",
     "phone": "+31202402734"
 },
 {
@@ -18,6 +19,7 @@ let venues = [{
     "city": "Amsterdam",
     "postalCode": "1018EJ",
     "email": "info@museumvandegeest.nl",
+    "website": "https://museumvandegeest.nl/",
     "phone": "+31235410681"
 },
 {
@@ -29,6 +31,7 @@ let venues = [{
     "city": "Amsterdam",
     "postalCode": "1018VG",
     "email": "info@luthermuseum.nl",
+    "website":"https://luthermuseum.nl/",
     "phone": "+31202142112"
 },
 {
@@ -40,6 +43,7 @@ let venues = [{
     "city": "Amsterdam",
     "postalCode": "1018BJ",
     "email": "info@kromhoutmuseum.nl",
+    "website":"https://kromhoutmuseum.nl/",
     "phone": "+31620329927"
 },
 {
@@ -51,6 +55,43 @@ let venues = [{
     "city": "Amsterdam",
     "postalCode": "1018PK",
     "email": "info@cacaomuseum.nl",
+    "website": "https://cacaomuseum.nl/",
+    "phone": "+31612797707"
+},
+{
+    "name": "Theo Thijssen Museum",
+    "description": "The Theo Thijssen museum is dedicated to the Amsterdam writer, educator, trade unionist and social-democrat Theo Thijssen.",
+    "addressLine1": "Eerste Leliedwarsstraat 16",
+    "latitude": "52.3755365",
+    "longitude": "4.8805219",
+    "city": "Amsterdam",
+    "postalCode": "1015TA",
+    "email": "info@theothijssenmuseum.nl",
+    "website": "https://www.theothijssenmuseum.nl/",
+    "phone": "+31204207119"
+},
+{
+    "name": "Pianola Museum",
+    "description": "The Pianola Museum is located in the Jordaan, a 17th century quarter of Amsterdam, west of the old town centre. The museum has a collection of automatic pianos and related objects.",
+    "addressLine1": "Westerstraat 106",
+    "latitude": "52.378671",
+    "longitude": "4.8813748",
+    "city": "Amsterdam",
+    "postalCode": "1015MN",
+    "email": "info@pianola.nl",
+    "website": "https://www.pianola.nl/", 
+    "phone": "+31612797707"
+},
+{
+    "name": "Multatuli Museum",
+    "description": "In the Multatuli House, the writer's birthplace, you will find his most important furniture, utensils and his books. It's as if the writer can walk in at any moment to pick up the pen again..",
+    "addressLine1": "Korsjespoortsteeg 20",
+    "latitude": "52.3774735",
+    "longitude": "4.8889206",
+    "city": "Amsterdam",
+    "postalCode": "1015AR",
+    "email": "info@multatuli-museum.nl",
+    "website": "http://www.multatuli-museum.nl/",
     "phone": "+31612797707"
 }]
 
@@ -83,3 +124,11 @@ function initMap() {
     // });
 
 };
+
+function showVenueMarkers () {
+    
+}
+
+function createMarker(latlng, name, address) {
+    
+}
