@@ -24,7 +24,7 @@ let venues = [{
 },
 {
     "name": "Luther Museum",
-    "description": "​The Lutheran Museum of Amsterdam shows how a religious community made a new start, with its own manner of believing, and built on care for one another.",
+    "description": "​The Lutheran Museum of Amsterdam shows a religious community.",
     "addressLine1": "Nieuwe Keizersgracht 570",
     "latitude": "52.3655353",
     "longitude": "4.9089125",
@@ -36,7 +36,7 @@ let venues = [{
 },
 {
     "name": "Museum Kromhout",
-    "description": "Museum 't Kromhout provides you with a good and complete overview of the technical development of the engines built here (mainly Kromhout engines) in the Kromhout Engine Factory, in Amsterdam, from 1895.",
+    "description": "A good and complete overview of the technical development of the engines built here in the Kromhout Engine Factory.",
     "addressLine1": "Hoogte Kadijk 147",
     "latitude": "52.3679264",
     "longitude": "4.9174555",
@@ -48,7 +48,7 @@ let venues = [{
 },
 {
     "name": "Cacaomuseum",
-    "description": "Our Chocolate experiences take your chocolate knowledge to the next level. Experience how chocolate is made from bean-to-bar in one of our famous workshops.",
+    "description": "Experience how chocolate is made from bean-to-bar.",
     "addressLine1": "Czaar Peterstraat 175",
     "latitude": "52.3713904",
     "longitude": "4.9290733",
@@ -72,7 +72,7 @@ let venues = [{
 },
 {
     "name": "Pianola Museum",
-    "description": "The Pianola Museum is located in the Jordaan, a 17th century quarter of Amsterdam, west of the old town centre. The museum has a collection of automatic pianos and related objects.",
+    "description": "Shows a collection of automatic pianos and related objects.",
     "addressLine1": "Westerstraat 106",
     "latitude": "52.378671",
     "longitude": "4.8813748",
@@ -84,7 +84,7 @@ let venues = [{
 },
 {
     "name": "Multatuli Museum",
-    "description": "In the Multatuli House, the writer's birthplace, you will find his most important furniture, utensils and his books. It's as if the writer can walk in at any moment to pick up the pen again..",
+    "description": "In the Multatuli House, you will find Multatuli's most important furniture, utensils and his books.",
     "addressLine1": "Korsjespoortsteeg 20",
     "latitude": "52.3774735",
     "longitude": "4.8889206",
