@@ -9,9 +9,9 @@ App to find alternative activities (small galeries, expositions, live events) in
 - Left Side Panel DONE
 
 Map page
-- Load/find more dummy data
-- Load (dummy) venues 
-- Create venue cards left side panel
+- Load/find more dummy data DONE
+- Load (dummy) venues DONE
+- Create venue cards left side panel DONE
 - Connect markers to left side panel
 
 Venue page

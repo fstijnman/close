@@ -33,7 +33,7 @@ body {
   background-color: coral;
   float:left;
   height: 100%;
-  width: 40%;
+  width: 400px;
   transition: 0.75s ease;
 }
 .left-small {
@@ -42,7 +42,7 @@ body {
 .right {
   display: inline-block;
   height: 100%;
-  width: 60%;
+  width: calc(100% - 400px);
   transition: 0.75s ease;
 }
 .right-large {
@@ -60,7 +60,7 @@ body {
   justify-content:center;
   align-items:center;
   top: 77px;
-  left: 40.5%;
+  left: 407px;
   z-index:3;
   cursor:pointer;
   transition: 0.75s ease;
@@ -85,18 +85,23 @@ body {
 #map {
   height: 100%;
 }
+
 .venue-list {
   position:absolute;
+}
+.venue-container-background {
+  display: flex;
+}
+.venue-info-container {
+  flex-grow: 1;
+}
+.venue-list {
   padding-left: 20px;
   padding-right: 20px;
 }
-.venue-container {
-  background-color: blanchedalmond;
-  border-radius: 25px;
-  padding: 30px;
-  margin-top: 10px;
-}
+
 .venue-description {
+  margin-top: 20px;
   font-size: 12px;
 }
 .venue-name {
