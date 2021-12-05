@@ -89,8 +89,14 @@ body {
 .venue-list {
   position:absolute;
 }
+.venue-container {
+  margin-top: 20px;
+}
 .venue-container-background {
   display: flex;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 15px;
 }
 .venue-info-container {
   flex-grow: 1;
@@ -101,7 +107,6 @@ body {
 }
 
 .venue-description {
-  margin-top: 20px;
   font-size: 12px;
 }
 .venue-name {

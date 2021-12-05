@@ -29,6 +29,3 @@ Backlog:
 - Show sidepanel venue list in location order
 - Recommender system
 - Light & Dark theme
-
-# Gameplan v2
-T.B.D
