@@ -12,7 +12,11 @@ Map page
 - Load/find more dummy data DONE
 - Load (dummy) venues DONE
 - Create venue cards left side panel DONE
+
+Markers
 - Connect markers to left side panel
+- Create custom marker
+- Animate marker on hover
 
 Venue page
 - Link new page on sidepanel to venue event
