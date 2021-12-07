@@ -27,6 +27,7 @@ Opening hours venues
 - Make datepicker 
 - Only show venues that are open
 
+
 Backlog:
 - Customize markers
 - Show venues based on location
