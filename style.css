@@ -28,6 +28,10 @@
     padding: 20px;
 }
 
+#nav-items a:not(:first-child) {
+    margin-left: 10px;
+}
+
 #nav-items a:link { 
     color: white;
     text-decoration: none; 
@@ -58,8 +62,23 @@
     background-color: aquamarine;
 }
 
+#venue-item {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+}
+
+#venue-item p {
+    margin-top: 10px;
+}
+
 #venue-map {
     min-height: 100%;
     flex: 1;
     background-color: beige;
+}
+
+#map {
+    height: 100%;
 }
