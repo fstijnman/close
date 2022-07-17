@@ -11,15 +11,39 @@ function initMap() {
 }
 
 function setMarkers(map, venues) {
-    for (let i = 0; i < venues.length; i++) {
-        const venue = venues[i];
+  const icons = {
+    regular: {
+      icon: "icons/map_icon.png",
+    },
+    on_hover: {
+      icon: "icons/map_icon_hover.png",
+    },
+  };
 
-        new google.maps.Marker({
-            position: { lat: parseFloat(venue.latitude), lng: parseFloat(venue.longitude) },
-            map: map,
-            title: venue.name
-        })
-    }
+  var width = 36;
+  var height = 20;
+
+  for (let i = 0; i < venues.length; i++) {
+    const venue = venues[i];
+
+    let marker = new google.maps.Marker({
+      position: {
+        lat: parseFloat(venue.latitude),
+        lng: parseFloat(venue.longitude),
+      },
+      map: map,
+      title: venue.name,
+      icon: icons["regular"].icon,
+    });
+
+    google.maps.event.addListener(marker, "mouseover", function () {
+      marker.setIcon(icons["on_hover"].icon);
+    });
+
+    google.maps.event.addListener(marker, "mouseout", function () {
+      marker.setIcon(icons["regular"].icon);
+    });
+  }
 }
 
 window.initMap = initMap;
